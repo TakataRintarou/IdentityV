@@ -1,0 +1,48 @@
+#author {
+    width: 100%;
+    background-color: rgba(1, 1, 1, 0.9);
+    .title {
+        color: white;
+    }
+    .author-wrap {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+        justify-content: space-between;
+        border-bottom: 3px solid #eee;
+        .author-item {
+            width: 45%;
+            height: 140px;
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 30px;
+            border-radius: 20px;
+            @include sp {
+                height: 110px;
+                padding-top: 20px;
+                width: 100%;
+            }
+            .author-img {
+                width: 25%;
+                height: 100%;
+                background-color: #eee;
+                border-radius: 20px 0 0 20px;
+            }
+            .author-box {
+                width: 75%;
+                height: 100%;
+                background-color: #fff;
+                padding: 10px;
+                border-radius: 0 20px 20px 0;
+                .author-name {
+                    font-size: 20px;
+                }
+                .author-info {
+                    font-size: 16px;
+                    padding: 10px 20px 0;
+                }
+            }
+        }
+    }
+}

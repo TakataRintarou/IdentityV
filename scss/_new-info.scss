@@ -1,0 +1,26 @@
+#new-info {
+    background-color: rgba(1, 1, 1, 0.9);
+    width: 100%;
+    .title {
+        color: #c4302b;
+    }
+    .new-info-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .item {
+            color: #c4302b;
+        }
+    }
+    .more {
+        color: #c4302b;
+    }
+    .item-btn {
+        a {
+            background-color: #c4302b; 
+        }
+    }
+}
+
+

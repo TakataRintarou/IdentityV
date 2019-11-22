@@ -1,0 +1,25 @@
+#article {
+    background-color: rgba(1, 1, 1, 0.8);
+    width: 100%;
+    .title {
+        color: #00acee;
+    }
+    .article-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .item {
+            color: #00acee;
+        }
+    }
+    .more {
+        color: #00acee;
+    }
+    .item-btn {
+        a {
+            background-color: #00acee; 
+        }
+    }
+}
+

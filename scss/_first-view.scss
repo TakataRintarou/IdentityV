@@ -1,0 +1,12 @@
+.first-view {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    @include tab {
+        background-image: url(../img/img3.jpg);
+        background-position-x: 50%;
+    }
+}
